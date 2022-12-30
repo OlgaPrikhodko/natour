@@ -145,9 +145,15 @@ body {
 
 .u-mb-medium {
   margin-bottom: 4rem !important; }
+  @media (max-width: 56.25em) {
+    .u-mb-medium {
+      margin-bottom: 3rem !important; } }
 
 .u-mb-big {
   margin-bottom: 8rem !important; }
+  @media (max-width: 56.25em) {
+    .u-mb-big {
+      margin-bottom: 5rem !important; } }
 
 .u-mt-big {
   margin-top: 8rem !important; }
