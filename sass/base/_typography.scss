@@ -23,6 +23,11 @@ body {
     animation-duration: 1s;
     /* animation-delay: 0.5s; */
     animation-timing-function: ease-out;
+
+    @include respond(phone) {
+      letter-spacing: 1rem;
+      font-size: 5rem;
+    }
   }
 
   &--sub {
@@ -35,6 +40,10 @@ body {
     animation-duration: 1s;
     /* animation-delay: 0.5s; */
     animation-timing-function: ease-out;
+
+    @include respond(phone) {
+      letter-spacing: 0.5rem;
+    }
   }
 }
 

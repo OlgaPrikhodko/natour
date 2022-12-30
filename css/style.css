@@ -90,6 +90,10 @@ body {
     animation-duration: 1s;
     /* animation-delay: 0.5s; */
     animation-timing-function: ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-primary--main {
+        letter-spacing: 1rem;
+        font-size: 5rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -99,6 +103,9 @@ body {
     animation-duration: 1s;
     /* animation-delay: 0.5s; */
     animation-timing-function: ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-primary--sub {
+        letter-spacing: 0.5rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
